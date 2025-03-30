@@ -67,5 +67,9 @@ return {
 
   -- rust (rust-analyzer)
   -- https://github.com/rust-lang/rust-analyzer
-  rust = {name = 'rust', cmd = 'rust-analyzer', roots = {'Cargo.toml'}}
+  rust = {name = 'rust', cmd = 'rust-analyzer', roots = {'Cargo.toml'}},
+
+  -- zig (zls)
+  -- https://github.com/zigtools/zls
+  zig = {name = 'zig', cmd = 'zls', roots = {'build.zig'}}
 }
